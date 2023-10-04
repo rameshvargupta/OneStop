@@ -1,0 +1,311 @@
+/* Start Navbar css */
+
+
+
+
+/* End Navbar css */
+
+/* /////////////////////////////////////////////// */
+
+/*  Start Middle Part Css  */
+
+.App {
+  text-align: center;
+}
+
+body {
+  scroll-behavior: smooth;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.box1 {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+.box1 .col-9 {
+  text-align: left;
+  padding-left: 40px;
+}
+
+.box1 span:hover {
+  color: red;
+  cursor: pointer;
+
+}
+
+.box1 .col-3 i:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#navbar1 {
+  background-color: white;
+  padding: 18px;
+
+}
+
+#navbar1 a {
+  border: 2px solid white;
+  border-top: none;
+  padding: 5px;
+  display: inline-block;
+}
+
+#navbar1 a:hover {
+  padding: 5px;
+  color: red;
+  border: 2px solid black;
+  border-top: none;
+  display: inline-block;
+}
+
+.topImage {
+  width: 100%;
+  height: 550px;
+}
+
+.topImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box2 img {
+  height: 80vh;
+}
+
+.box3 img {
+  margin-bottom: 30px;
+  height: auto;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.box4 img {
+  height: auto;
+}
+
+.box4 .fa {
+  color: rgb(248, 25, 25);
+  margin-left: 3px;
+}
+
+.box4 figcaption {
+  text-align: center;
+}
+
+figure {
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+figure img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+figcaption {
+  padding: 10px 0 30px 0;
+}
+
+.viewbtn {
+  background-color: black;
+  color: white;
+  padding: 7px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 20px 30px;
+}
+
+
+.slidercolor {
+  border: 1px solid black;
+
+}
+
+
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s linear;
+}
+
+.slider::after {
+  content: " ";
+  position: absolute;
+  top: 0%;
+  right: 100%;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(140, 240, 255, 0.2);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.slider:hover::after {
+  right: 0;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.box6 .box7 {
+  box-shadow: 2px 2px 3px black;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.box7 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.box7 h4 {
+  color: red;
+  margin-top: 40px;
+}
+
+.box7 h6 {
+  line-height: 30px;
+  padding: 30px;
+  font-size: 16px;
+  color: black;
+}
+
+.box8 {
+  margin-top: 50px;
+}
+
+.box9 {
+
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* End Middle Part Css */
+
+/* //////////////////////////////////////////////// */
+
+figure:hover {
+  transform: scale(1.05);
+  transition: .6s;
+  border: 2px solid rgb(32, 0, 128);
+}
+
+.top img:hover {
+  transform: scale(1.05);
+  transition: .6s;
+
+}
+
+
+/* start SpFooter css  */
+
+.footer {
+  padding: 30px 20px 10px 20px;
+  background-color: black;
+  margin-top: 50px;
+
+  & h2 {
+    color: white;
+  }
+
+}
+
+.LastFooter {
+  background-color: rgb(16, 16, 16);
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+
+  & strong {
+    color: tomato;
+  }
+}
+
+.Fsection1 {
+  & .image {
+    width: 100px;
+    height: 100px;
+  }
+
+  & .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  & .icons {
+    margin-left: -13px;
+  }
+
+  & i {
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+
+  }
+
+  & i:hover {
+    color: #ffdd00;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  & h6 {
+    color: white;
+    margin-top: 10px;
+  }
+
+}
+
+.Fsection2,
+.Fsection3,
+.Fsection4 {
+  & ul li {
+    list-style: none;
+    margin-left: -30px;
+  }
+
+  & hr {
+    color: white;
+  }
+
+  & a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  & a:hover {
+    color: #ffdd00;
+    text-decoration: underline;
+  }
+}
+
+.Fsection4 {
+  & i {
+    font-size: 20px;
+    color: white;
+  }
+}
+
+
+/* End SpFooter Css  */

@@ -1,0 +1,11 @@
+/* start width 1000 px */
+@media screen and (max-width: 1000px) {
+.login2{
+    display: none;
+}
+.smallcart{
+    display: block;
+}
+
+}
+/* end width 1000 px */
